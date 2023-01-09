@@ -1,0 +1,41 @@
+.home {
+    height: 100vh;
+}
+
+.home>h2 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1F6333;
+    border: 1px solid #008080;
+    border-radius: 5px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+
+.values>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.values:hover {
+    color: #fff;
+    background-color: #2a8947;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.values>span>p {
+    font-weight: bold;
+}

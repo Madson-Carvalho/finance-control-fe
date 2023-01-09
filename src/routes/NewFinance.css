@@ -1,0 +1,111 @@
+.new-finance {
+    width: 80%;
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+.new-finance>h1 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-post-form>div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: #1F6333;
+    width: 50%;
+    max-width: 50%;
+}
+
+.new-post-form>div>input {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem;
+}
+
+.new-post-form>div>select {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem;
+}
+
+#obs {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem
+}
+
+.new-post-form>div>label {
+    margin-bottom: 0.5rem;
+}
+
+.tt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.tt>div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: #1F6333;
+    width: 50%;
+    max-width: 50%;
+}
+
+.tt>div>input {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem;
+}
+
+.tt>div>select {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem;
+}
+
+.tt>div>label {
+    margin-bottom: 0.5rem;
+}
+
+#form-btn {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a8947;
+    cursor: pointer;
+}
+
+#form-btn:hover {
+    background-color: #1F6333;
+}
+
+.alert {
+    display: none !important;
+}
+
+.new-post-form-hide {
+    display: none;
+}

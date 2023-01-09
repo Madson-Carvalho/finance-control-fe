@@ -1,0 +1,96 @@
+.HistoricPerMonthHide {
+    display: none;
+}
+
+.HistoricPerMonthShow {
+    margin-top: 2.5rem;
+}
+
+.no-historic-hide {
+    display: none;
+}
+
+.Historic-per-month-form >h2 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.no-historic>h2 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.Historic-per-month-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.Historic-per-month-form>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #1F6333;
+    width: 100%;
+    max-width: 100%;
+    gap: 1rem;
+    border: 1px solid #3EC968;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.Historic-per-month-form>div>span {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #1F6333;
+    width: 50%;
+    max-width: 50%;
+    gap: 1rem;
+}
+
+.Historic-per-month-form>div>div {
+    display: flex;
+    font-size: 1.2rem;
+    color: #1F6333;
+    gap: 1rem;
+}
+
+.Historic-per-month-form>div>span>input {
+    font-size: 0.8rem;
+    color: #1F6333;
+    padding: 0.5rem;
+    width: 30%;
+    height: 3rem;
+    border: 1px solid #2a8947;
+}
+
+#form-btn-his {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a8947;
+    cursor: pointer;
+}
+
+#form-btn:hover {
+    background-color: #1F6333;
+}
+
+.full-historic>h2 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}

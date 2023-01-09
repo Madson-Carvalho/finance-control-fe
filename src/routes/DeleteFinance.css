@@ -1,0 +1,45 @@
+.delete-finance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3EC968;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.delete-finance>h2 {
+    text-align: center;
+    color: #1F6333;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.delete-finance>span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+}
+
+.delete-finance>span>a>button {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a8947;
+    cursor: pointer;
+}
+
+.delete-finance>span>a>button:hover {
+    background-color: #1F6333;
+}
+
+.btn-hide {
+    display: none !important;
+}

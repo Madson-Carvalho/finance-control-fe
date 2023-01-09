@@ -1,0 +1,47 @@
+.finance-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3EC968;
+    padding: 0.5rem;
+    color: #1F6333;
+    text-align: center;
+}
+
+.data>h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.finance-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finance-date>img {
+    margin-right: 5px;
+}
+
+.finance-date>p {
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.delete-edit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.delete-edit>h2 {
+    text-align: center;
+    text-transform: capitalize;
+    width: 70%;
+}
